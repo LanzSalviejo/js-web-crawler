@@ -1,12 +1,19 @@
 {
-  "name": "js-web-crawler",
+  "name": "js-webcrawler-http",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "type": "module",
   "scripts": {
     "start": "node main.js"
+    "test": "node --experimental-vm-nodules node_modules/jest/bin/jest.js"
   },
+  "jest": {
+    "transform" : {}
+  }
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^29.7.0"
+  }
 }
