@@ -5,12 +5,12 @@
   "main": "index.js",
   "type": "module",
   "scripts": {
-    "start": "node main.js"
+    "start": "node main.js",
     "test": "node --experimental-vm-nodules node_modules/jest/bin/jest.js"
   },
   "jest": {
     "transform" : {}
-  }
+  },
   "author": "",
   "license": "ISC",
   "devDependencies": {
